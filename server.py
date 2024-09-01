@@ -6,7 +6,6 @@ import sqlite3
 
 app = Flask(__name__)
 
-SHEETY_API = 'https://api.sheety.co/952ea927b5ee42228ec81e7a704646d6/toye'sWorkouts/workouts'
 today = datetime.now().strftime('%d/%m/%Y')
 
 
